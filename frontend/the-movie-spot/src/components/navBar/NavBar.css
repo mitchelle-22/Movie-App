@@ -1,0 +1,40 @@
+nav{
+     background: rgba(0, 0, 0, 9); 
+    padding: 20px;
+    display: flex;
+    justify-content:space-between ;
+    color: #fff;
+    position: relative;
+    z-index: 99;
+    
+}
+
+.logo{
+    font-weight: 600;
+    font: 30px;
+    color: tomato;
+}
+.logo font{
+    color: #fff;
+}
+.menu_list{
+    list-style-type:none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.menu_list li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight:  300;
+    padding: 5px 10px;
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+.menu_list li a:hover, .menu_list li a.active{
+    background-color: #fff;
+    border-radius: 2px;
+    color:#000;
+    transition: all 0.5 ease-in-out;
+}
